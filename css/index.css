@@ -180,5 +180,11 @@ nav ul li a:link {
   height: 30%;
 }
 .main-content__section {
+  display: flex;
+  flex-flow: row nowrap;
   height: 45vh;
+}
+.main-content__section .main-content__div-left,
+.main-content__section .main-content__div-right {
+  width: 50%;
 }
