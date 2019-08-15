@@ -188,3 +188,6 @@ nav ul li a:link {
 .main-content__section .main-content__div-right {
   width: 50%;
 }
+body main footer {
+  height: 10vh;
+}
