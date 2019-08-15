@@ -219,14 +219,27 @@ nav {
 
 .main-content__section {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 
     height: 45vh;
 
-    .main-content__div-left,
-    .main-content__div-right {
+    .main-content__div-top {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .main-content__div-top .skills,
+    .main-content__div-top .about {
         width: 50%;
     }
+}
+
+// TABLE
+.experience-table {
+    display: grid;
+    grid-template-columns: 6rem repeat(3, 1fr);
+
+    text-align: center;
 }
 
 // FOOTER
