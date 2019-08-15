@@ -141,6 +141,9 @@ main {
   width: 90%;
   margin: 0 auto;
 }
+header {
+  height: 45vh;
+}
 nav {
   display: flex;
   flex-flow: row wrap;
